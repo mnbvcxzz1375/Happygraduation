@@ -269,19 +269,6 @@ npx netlify login
 npx netlify deploy --prod
 ```
 
-## 推送到 GitHub
-
-如果这是第一次推送到新仓库，可使用下面流程：
-
-```bash
-git init
-git add .
-git commit -m "feat: initial graduation blessing site"
-git branch -M main
-git remote add origin https://github.com/mnbvcxzz1375/Happygraduation.git
-git push -u origin main
-```
-
 ## 常见修改建议
 
 - 想改标题和寄语：修改 `src/data/config.ts`
